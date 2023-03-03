@@ -14,11 +14,11 @@
       "Version": "2.7.0",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteHost": "api.github.com",
       "RemoteUsername": "EpiModel",
       "RemoteRepo": "ARTnet",
       "RemoteRef": "main",
       "RemoteSha": "9c4adab02fd753f78fc61963201817a292b54a2d",
+      "RemoteHost": "api.github.com",
       "Remotes": "github::EpiModel/EpiModel@main, github::EpiModel/ARTnetData@main,\n    github::EpiModel/EpiModelHIV-p@main",
       "Hash": "6877b1fcdcaa195179b34765f9ef9ec8",
       "Requirements": [
@@ -61,12 +61,12 @@
       "Version": "2.3.2",
       "Source": "GitHub",
       "RemoteType": "github",
+      "RemoteHost": "api.github.com",
       "RemoteUsername": "EpiModel",
       "RemoteRepo": "EpiModel",
-      "RemoteRef": "main",
-      "RemoteSha": "5f91d00d8c0fa91b6e787cfbdb2fa770e2fbf67f",
-      "RemoteHost": "api.github.com",
-      "Hash": "b9edcf0b80af4017505652278b044baa",
+      "RemoteRef": "multinets",
+      "RemoteSha": "177dec26e6b8925baf8f4c281b045ed3985bd706",
+      "Hash": "c18f9ef023c0135cf0fa0740110b93c3",
       "Requirements": [
         "RColorBrewer",
         "Rcpp",
@@ -95,19 +95,20 @@
       "Version": "2.6.0",
       "Source": "GitHub",
       "RemoteType": "github",
+      "RemoteHost": "api.github.com",
       "RemoteUsername": "EpiModel",
       "RemoteRepo": "EpiModelHIV-p",
-      "RemoteRef": "main",
-      "RemoteSha": "fd4d3956b6a6575adb794292feda7291a68d38f6",
-      "RemoteHost": "api.github.com",
-      "Remotes": "github::EpiModel/ARTnet@main, github::EpiModel/ARTnetData@main,\n    github::EpiModel/EpiModel@main",
-      "Hash": "0430fb2fdad7cfd16077796c8857fddf",
+      "RemoteRef": "multinets",
+      "RemoteSha": "a54c1518ada7ee9cde9557b1903b24df1bbf40ce",
+      "Remotes": "github::chad-klumb/ARTnet@multinets, github::EpiModel/ARTnetData@main,\n    github::EpiModel/EpiModel@multinets",
+      "Hash": "2e3eea168a1d35435b7b396b09eb32a7",
       "Requirements": [
         "EpiModel",
         "dplyr",
         "ergm",
         "network",
         "networkDynamic",
+        "networkLite",
         "progressr",
         "statnet.common",
         "tergm"
@@ -118,13 +119,13 @@
       "Version": "2.2.0",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteUsername": "epimodel",
-      "RemoteRepo": "epimodelhpc",
-      "RemoteRef": "autocalib",
-      "RemoteSha": "d3625ac952c66b208a868801ad1ce005bcf7a1c5",
       "RemoteHost": "api.github.com",
-      "Remotes": "github::EpiModel/slurmworkflow, github::EpiModel/swfcalib",
-      "Hash": "2ce12814e746fcb5e52d063c5e263f3a",
+      "RemoteUsername": "EpiModel",
+      "RemoteRepo": "EpiModelHPC",
+      "RemoteRef": "multinets",
+      "RemoteSha": "99ac88a7f1346df2bde5fba8ea128cff0d37796b",
+      "Remotes": "github::EpiModel/slurmworkflow",
+      "Hash": "06e1ab990eb892d70d78e1c5faf92597",
       "Requirements": [
         "EpiModel",
         "callr",
@@ -135,7 +136,6 @@
         "fs",
         "slurmworkflow",
         "stringr",
-        "swfcalib",
         "tergm",
         "tidyr"
       ]
@@ -261,10 +261,10 @@
     },
     "cachem": {
       "Package": "cachem",
-      "Version": "1.0.6",
+      "Version": "1.0.7",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "648c5b3d71e6a37e3043617489a0a0e9",
+      "Hash": "cda74447c42f529de601fe4d4050daef",
       "Requirements": [
         "fastmap",
         "rlang"
@@ -495,10 +495,10 @@
     },
     "fastmap": {
       "Package": "fastmap",
-      "Version": "1.1.0",
+      "Version": "1.1.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "77bd60a6157420d4ffa93b27cf6a58b8",
+      "Hash": "f7736a18de97dea803bde0a2daaafb27",
       "Requirements": []
     },
     "foreach": {
@@ -639,10 +639,10 @@
     },
     "igraph": {
       "Package": "igraph",
-      "Version": "1.4.0",
+      "Version": "1.4.1",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "14734eae03f062b55e794b07784aeddc",
+      "Hash": "a7ef0d811cb66d8be9da0d7b5ab80ded",
       "Requirements": [
         "Matrix",
         "magrittr",
@@ -1128,12 +1128,12 @@
       "Version": "0.0.0.9000",
       "Source": "GitHub",
       "RemoteType": "github",
-      "RemoteHost": "api.github.com",
       "RemoteUsername": "EpiModel",
       "RemoteRepo": "slurmworkflow",
       "RemoteRef": "main",
-      "RemoteSha": "96da618fc4c1713f76c2e42664b7e2a16c9f0718",
-      "Hash": "de2cf07f62d9922e6d9f28ef98d63d19",
+      "RemoteSha": "ccb3b19dd9a762a8ec88d933273e99bde457e757",
+      "RemoteHost": "api.github.com",
+      "Hash": "4d66992d8fe2f295ff933a84bd12cda3",
       "Requirements": [
         "fs",
         "yaml"
@@ -1141,10 +1141,10 @@
     },
     "srvyr": {
       "Package": "srvyr",
-      "Version": "1.1.2",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "b0fd6db5340cc0fd4051e1a0d913e406",
+      "Hash": "9388d659c3f4b7a93be210ebaaba8cf1",
       "Requirements": [
         "dplyr",
         "magrittr",
@@ -1213,26 +1213,6 @@
       "Hash": "aea2b8787db7088ba50ba389848569ee",
       "Requirements": [
         "Matrix"
-      ]
-    },
-    "swfcalib": {
-      "Package": "swfcalib",
-      "Version": "0.0.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "EpiModel",
-      "RemoteRepo": "swfcalib",
-      "RemoteRef": "main",
-      "RemoteSha": "eb8a63431d378aca51833cd2f9a72afcbe4c7598",
-      "Remotes": "github::EpiModel/slurmworkflow",
-      "Hash": "d5b743d8f091ed60093c783a07ec748c",
-      "Requirements": [
-        "dplyr",
-        "fs",
-        "future",
-        "future.apply",
-        "slurmworkflow"
       ]
     },
     "tergm": {

@@ -54,7 +54,10 @@ best <- readRDS(fs::path(
 best <- EpiModel::get_sims(best, best_sim$sim)
 epi_num <- best$epi$num
 
-# Remove all epi except `num`
-best$epi <- list(num = epi_num)
+# Remove all epi except `num` and `sim.num`
+best$epi <- list(
+  num = best$epi$num,
+  sim.num = best$epi$sim.num
+)
 
 saveRDS(best, path_to_restart)
