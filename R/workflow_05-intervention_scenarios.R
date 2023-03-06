@@ -10,7 +10,7 @@ library("EpiModelHIV")
 # Settings ---------------------------------------------------------------------
 source("./R/utils-0_project_settings.R")
 context <- "hpc"
-max_cores <- 30
+max_cores <- 20
 
 source("./R/utils-default_inputs.R") # make `path_to_est`, `param` and `init`
 source("./R/utils-hpc_configs.R") # creates `hpc_configs`
@@ -58,7 +58,7 @@ wf <- add_workflow_step(
     output_dir = "./data/intermediate/scenarios",
     libraries = "EpiModelHIV",
     save_pattern = "simple",
-    n_rep = 120,
+    n_rep = 60,
     n_cores = max_cores,
     max_array_size = 500,
     setup_lines = hpc_configs$r_loader

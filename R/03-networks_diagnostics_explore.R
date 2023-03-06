@@ -7,7 +7,7 @@
 # Choose the right context: "local" if you are checking the smaller networks
 #   estimated locally or "hpc" for the full size networks. For "hpc", this
 #   assumes that you downloaded the "netdx-<nwtype>-hpc.rds" files from the HPC.
-context <- c("local", "hpc")[1]
+context <- c("local", "hpc")[2]
 source("R/utils-0_project_settings.R")
 
 # Libraries  -------------------------------------------------------------------
